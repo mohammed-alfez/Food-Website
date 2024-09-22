@@ -23,6 +23,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
+  "homepage": "https://mohammed-alfez.github.io/Food-Website/",
   "devDependencies": {
     "@eslint/js": "^9.10.0",
     "@types/react": "^18.3.3",
@@ -32,7 +33,6 @@
     "eslint-plugin-react": "^7.36.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
-    "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
     "vite": "^5.4.1"
   }
