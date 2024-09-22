@@ -1,0 +1,174 @@
+
+.special-dishes-section {
+  padding: 4rem 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.special-dishes-title-2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: left;
+  max-width: 300px;
+}
+
+.special-dishes-title-1 {
+  text-align: left;
+  color: #FF6868;
+  margin-bottom: -1.2rem;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+  gap: 10px;
+}
+
+.carousel-button {
+  background-color: #39DB4A;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: -50px;
+}
+
+.carousel-button:focus{
+  outline: none;
+}
+
+.dishes-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 40px;
+  overflow: hidden;
+  justify-content: center; 
+}
+
+.dish-card {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5%;
+  border-top-right-radius: 20%;
+  padding: 1rem;
+  text-align: center;
+  opacity: 0.8;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.dish-card.active {
+  color: #272727; 
+}
+
+.favorite-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #39DB4A ;
+  padding: 0;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  height: 48px;
+  width: 60px;
+  border-radius: 0px 37.5px 0px 42.5px;
+}
+
+.favorite-button img {
+  width: 20px;
+  height: 20px;
+  fill: #39DB4A; 
+}
+
+.favorite-button:hover img {
+  fill: #FF6868; 
+}
+
+.favorite-button:focus{
+  outline: none;
+  border: 1px solid transparent;
+}
+.favorite-button.active {
+  background-color: #39DB4A; /* Fill the button with green when active */
+  color: #fff; /* Change text color to white */
+}
+
+.dish-image {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+}
+
+.dish-name, .dish-price, .special-description {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.dish-rating{
+  text-align: right;
+}
+.dish-rating > svg { 
+  margin-right: 5px; 
+}
+
+.special-description {
+  font-size: 0.875rem;
+  color: #555;
+}
+
+/* Media queries for responsiveness */
+
+/* Large screens (desktops) */
+@media (min-width: 1200px) {
+  .dishes-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dish-card {
+    width: calc(25% - 2rem);
+    margin: 1rem;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .dishes-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .dish-card {
+    width: calc(33.33% - 2rem);
+    margin: 1rem;
+  }
+}
+
+/* Small screens (mobiles) */
+@media (max-width: 767px) {
+
+  .special-dishes-title-1, .special-dishes-title-2 {
+    margin: 0 auto; /* center titles horizontally */
+    text-align: center; /* center titles vertically */
+  }
+  .dishes-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dish-card {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .carousel-container {
+    display: none;
+  }
+ 
+}
