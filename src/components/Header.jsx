@@ -11,6 +11,11 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 const Dropdown = ({ title, options }) => {
   const [isOpen, setIsOpen] = useState(false);
 
+  Dropdown.propTypes = {
+    title: PropTypes.string.isRequired,
+    options: PropTypes.arrayOf(PropTypes.string).isRequired,
+  };
+
   return (
     <div className="dropdown ">
       <div>
