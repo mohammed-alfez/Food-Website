@@ -232,34 +232,49 @@ html, body {
   }
   
   .mobile-nav {
-    display: none;
-    
+    display: none; 
   }
   
   .mobile-nav-button {
-    color: #333;
-    text-decoration: none;
+    background-color: #fff;
     border: none;
-    padding: 0;
-    background-color: transparent;
+    padding: 10px;
+    font-size: 18px;
     cursor: pointer;
-    z-index: 1;
+    color: #555;
   }
   
-  .mobile-nav-button {
+  .mobile-nav-button:focus {
+    outline: none;
+  }
+  
+  .mobile-nav-links {
     display: block;
-    margin-bottom: 10px; /* add some space between button and nav */
+    position: absolute;
+    top: 80px;
+    right: -380px;
+    width: 100%;
+    color: #272727;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
   }
-    
-  .mobile-nav-button[aria-label="Toggle navigation menu"]:checked ~ .nav {
-    display: block; 
-    
-  }
-  .nav.open {
+  
+  .mobile-nav-link {
     display: block;
-
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
   }
-
+  
+  .mobile-nav-link.active {
+    background-color: #f0f0f0;
+  }
+  
+  .mobile-nav-link:hover {
+    background-color: #f0f0f0;
+  }
+  
 
 /* Medium screens */
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -306,7 +321,7 @@ html, body {
 @media (max-width: 767px) {
   .navbar {
     position: relative;
-    left: 16%;
+    left: 14%;
     width: 5%;
     background: linear-gradient(180deg, #FAFAFA 0%, #FCFCFC 100%);
   }

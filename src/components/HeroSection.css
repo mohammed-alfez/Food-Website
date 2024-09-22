@@ -202,8 +202,8 @@
   
     .hero-text {
       position: relative;
-      left: 24px;
-      max-width: 70%;
+      left: 0px;
+      max-width: 80%;
     }
   
     .cta-container {
@@ -226,15 +226,15 @@
     
     #bg-circle {
       position: absolute;
-      top:  -40px;
-      right: -75px;
-      width: 235px;
-      height: 235px;
+      top:  -20px;
+      right: -110px;
+      width: 260px;
+      height: 260px;
       margin-bottom: -40px;
     }
 
     .overlay-image{
-      max-width: 250px;
+      max-width: 280px;
       height: auto;
     }
     .sideHero{

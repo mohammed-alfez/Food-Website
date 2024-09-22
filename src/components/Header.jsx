@@ -56,7 +56,7 @@ const Header = () => {
           <span>F</span>oodi
         </p>
       </div>
-      <nav className={`nav ${isMobileNavOpen ? "open" : ""}`}>
+      <nav className="nav">
         <a href="#" className="nav-link active">
           Home
         </a>
@@ -90,19 +90,32 @@ const Header = () => {
         Contact
       </a>
       <div className="mobile-nav">
-      <button className="mobile-nav-button" aria-label="Toggle navigation menu" onClick={handleMobileNavToggle}>
-  <FontAwesomeIcon icon={fas.faBars} />
-</button>
-</div>
-
-
+        <button
+          className="mobile-nav-button"
+          aria-label="Toggle navigation menu"
+          onClick={handleMobileNavToggle}
+        >
+          <FontAwesomeIcon icon={fas.faBars} />
+        </button>
+        {isMobileNavOpen && (
+          <nav className="mobile-nav-links">
+            <a href="#" className="mobile-nav-link active">
+              Home
+            </a>
+            <a href="#" className="mobile-nav-link">
+              Menu
+            </a>
+            <a href="#" className="mobile-nav-link">
+              Services
+            </a>
+            <a href="#" className="mobile-nav-link">
+              Offers
+            </a>
+          </nav>
+        )}
+      </div>
     </header>
   );
-};
-
-Dropdown.propTypes = {
-  title: PropTypes.string.isRequired,
-  options: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default Header;

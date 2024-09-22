@@ -147,31 +147,31 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    top: 20%;
-    left: 34%;
-    height: 180px;
+    top: 34%;
+    left: 30%;
+    height: 240px;
     margin-bottom: 2rem;
   }
   .chef-image img {
     position: relative;
     left: 12px;
-    width: 180px;
+    width: 240px;
     height: auto;
   }
   .testimonial-content {
     position: relative;
     right: 28%;
     bottom: 30%;
-    max-width: 300px;
+    max-width: 500px;
     padding-left: 100px;
     padding-bottom: 50px;
     text-align: center;
   }
   .testimonial-content h1 {
-    font-size: 24px;
+    font-size: 36px;
   }
   .testimonial-content p {
-    font-size: 14px;
+    font-size: 18px;
   }
   .rating{
     line-height: 1.5;
