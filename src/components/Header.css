@@ -318,9 +318,7 @@ html, body {
 @media (max-width: 767px) {
 
   .navbar {
-    position: relative;
-    left: 6%;
-    width: 80%;
+    width: 100%;
     background: linear-gradient(180deg, #FAFAFA 0%, #FCFCFC 100%);
     padding: 0.25rem 0.5rem;
   }
@@ -344,7 +342,15 @@ html, body {
     
   }
   .mobile-nav-button {
-    font-size: 34px;
+    font-size: 44px;
+  }
+  .Icon-container img{
+    height: 44px;
+    width: 44px;
+  }
+  #bag-icon{
+    height: 34px;
+    width: 34px;
   }
   .mobile-nav-button .fas {
     width: 24px;
