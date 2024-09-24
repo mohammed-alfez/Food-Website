@@ -1,5 +1,4 @@
 
-
 html, body {
   margin: 0;
   padding: 0;
@@ -10,6 +9,7 @@ html, body {
   background: linear-gradient(180deg, #FAFAFA 0%, #FCFCFC 100%);
   scroll-behavior: smooth;
 }
+
 
   .dropdown {
     position: relative;
@@ -236,7 +236,8 @@ html, body {
   }
   
   .mobile-nav-button {
-    background-color: #fff;
+
+    background-color: transparent;
     border: none;
     padding: 10px;
     font-size: 18px;
@@ -252,31 +253,27 @@ html, body {
     display: block;
     position: absolute;
     top: 80px;
-    right: -380px;
+    right: -330px;
     width: 100%;
     color: #272727;
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    z-index: 1;
+    padding: 5px;
   }
   
   .mobile-nav-link {
     display: block;
     padding: 10px;
     font-size: 16px;
+    padding: 5px;
     text-decoration: none;
     color: #333;
   }
   
-  .mobile-nav-link.active {
-    background-color: #f0f0f0;
-  }
-  
-  .mobile-nav-link:hover {
-    background-color: #f0f0f0;
-  }
+ 
   
 
-/* Medium screens */
 @media (min-width: 768px) and (max-width: 1199px) {
   .navbar {
     width: 768px;
@@ -317,29 +314,37 @@ html, body {
   }
 }
 
-/* Small screens */
+
 @media (max-width: 767px) {
+
   .navbar {
     position: relative;
-    left: 14%;
-    width: 5%;
+    left: 6%;
+    width: 80%;
     background: linear-gradient(180deg, #FAFAFA 0%, #FCFCFC 100%);
+    padding: 0.25rem 0.5rem;
   }
   .nav {
     display: none;
   }
   .logo{
     margin-top: 60px;
+    font-size: 2rem;
   }
   .cta {
     display: none;
+  }
+  .Icon-container{
+    padding-left: 20rem;
+    height: 2rem;
+    width: 2rem;
   }
   .mobile-nav {
     display: block;
     
   }
   .mobile-nav-button {
-    font-size: 24px;
+    font-size: 34px;
   }
   .mobile-nav-button .fas {
     width: 24px;
@@ -347,4 +352,3 @@ html, body {
   }
 }
 
-/* Add this to the existing CSS code */

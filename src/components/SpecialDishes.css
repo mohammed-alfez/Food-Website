@@ -97,10 +97,7 @@
   outline: none;
   border: 1px solid transparent;
 }
-.favorite-button.active {
-  background-color: #39DB4A; /* Fill the button with green when active */
-  color: #fff; /* Change text color to white */
-}
+
 
 .dish-image {
   display: block;
@@ -126,21 +123,8 @@
   color: #555;
 }
 
-/* Media queries for responsiveness */
 
-/* Large screens (desktops) */
-@media (min-width: 1200px) {
-  .dishes-container {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .dish-card {
-    width: calc(25% - 2rem);
-    margin: 1rem;
-  }
-}
 
-/* Medium screens (tablets) */
 @media (min-width: 768px) and (max-width: 1199px) {
   .dishes-container {
     flex-wrap: wrap;
@@ -152,23 +136,31 @@
   }
 }
 
-/* Small screens (mobiles) */
+
 @media (max-width: 767px) {
 
   .special-dishes-title-1, .special-dishes-title-2 {
-    margin: 0 auto; /* center titles horizontally */
-    text-align: center; /* center titles vertically */
+    text-align: left; 
+    font-size: 2rem;
+  }
+  .special-dishes-title-1{
+    font-size: 1rem;
   }
   .dishes-container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
   }
   .dish-card {
     width: 100%;
-    margin: 1rem 0;
+    margin: 0.5rem;
   }
   .carousel-container {
     display: none;
+  }
+  .special-dishes-section {
+    padding: 2rem 0; 
   }
  
 }

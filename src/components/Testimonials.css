@@ -1,5 +1,3 @@
-
-
 .testimonial-container {
   display: flex;
   align-items: center;
@@ -11,13 +9,13 @@
 .testimonial-section {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   padding: 40px;
   gap: 400px;
 }
 
-.bg-chef-image{
-  background-color:  #53EC62;
+.bg-chef-image {
+  background-color: #53EC62;
   height: 262px;
   border-radius: 140px 140px 41px 41px;
 }
@@ -36,20 +34,19 @@
   margin-top: -209px;
 }
 
-.pizza{
+.pizza {
   position: absolute;
   font-size: 26px;
   transform: rotate(17.03deg);
   left: 110%;
 }
 
-.emoji{
+.emoji {
   position: absolute;
   font-size: 26px;
   transform: rotate(-50.03deg);
   left: -8%;
 }
-
 
 .chef-image > .emoji {
   order: 1;
@@ -118,9 +115,8 @@
 }
 
 .rating > span {
-  margin-left: 8px; 
+  margin-left: 8px;
 }
-
 
 /* Media queries for responsiveness */
 
@@ -142,39 +138,18 @@
 
 /* Small screens (mobiles) */
 @media (max-width: 767px) {
-  .bg-chef-image {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    top: 34%;
-    left: 30%;
-    height: 240px;
-    margin-bottom: 2rem;
+  .testimonial-container {
+    padding: 10px; 
+    margin-top: -6rem;
   }
-  .chef-image img {
-    position: relative;
-    left: 12px;
-    width: 240px;
-    height: auto;
+  .testimonial-section {
+    padding: 20px; 
   }
   .testimonial-content {
-    position: relative;
-    right: 28%;
-    bottom: 30%;
-    max-width: 500px;
-    padding-left: 100px;
+    padding-left: 100px; 
     padding-bottom: 50px;
-    text-align: center;
   }
-  .testimonial-content h1 {
-    font-size: 36px;
-  }
-  .testimonial-content p {
-    font-size: 18px;
-  }
-  .rating{
-    line-height: 1.5;
-    
+  .customer-feedback {
+    margin: 10px; 
   }
 }
