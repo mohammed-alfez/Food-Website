@@ -115,8 +115,12 @@
 
 @media (max-width: 767px) {
   .footer {
-    padding: 20px 40px 60px 40px; 
-    margin-bottom: 16rem;
+    padding: 20px 20px 0 20px; 
+    margin-bottom: 2rem;
+
+  }
+  .footer div p{
+    font-size: 2rem;
   }
   .footer-content {
     justify-content: flex-start; 
@@ -127,16 +131,25 @@
   }
   .footer .social-icons {
     top: 100px; 
-    left: -10px;
+    left: -22px;
+    gap: 20px;
+  }
+  .footer .social-icons a{
+    font-size: 2rem;
   }
   footer div p, .footer div a{
-    font-size: 1.1rem;
+    margin: 5px 0;
+    font-size: 1.5rem;
     line-height: 30px;
   }
   footer div{
-    padding-left: 1rem;
+    padding-left: 1.2rem;
   }
   footer h3{
-    font-size: 1rem;
+    font-size: 1.6rem;
+  }
+  .footer .copyright{
+    margin-top: 30px;
+    font-size: 1.2rem;
   }
 }

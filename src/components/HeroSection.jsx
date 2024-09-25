@@ -30,6 +30,7 @@ const HeroSection = () => {
 
   return (
     <section className="hero-section">
+      <div className="left">
       <div className="hero-text">
         <h1 className="hero-title">
           Dive into Delights Of Delectable{" "}
@@ -47,8 +48,9 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-
+      </div>
       {
+      <div className="right">
         <div className="image-container">
           <div id="bg-circle">
             <img src={sideHEro} alt="" className="sideHero" />
@@ -93,7 +95,7 @@ const HeroSection = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div></div>
       }
     </section>
   );

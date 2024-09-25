@@ -48,7 +48,7 @@ function Footer() {
         </div>
       </div>
       <div className="copyright">
-        Copyright © 2023 VerveBridge | All rights reserved
+        Copyright © 2024 VerveBridge | All rights reserved
       </div>
     </footer>
   );

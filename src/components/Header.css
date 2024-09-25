@@ -236,7 +236,6 @@ html, body {
   }
   
   .mobile-nav-button {
-
     background-color: transparent;
     border: none;
     padding: 10px;
@@ -252,20 +251,20 @@ html, body {
   .mobile-nav-links {
     display: block;
     position: absolute;
-    top: 80px;
-    right: -330px;
+    top: 120px;
+    left: 34.2rem;
     width: 100%;
     color: #272727;
     padding: 10px;
-    border-bottom: 1px solid #ddd;
-    z-index: 1;
+    z-index: 4;
     padding: 5px;
   }
   
   .mobile-nav-link {
     display: block;
     padding: 10px;
-    font-size: 16px;
+    font-size: 1.5rem;
+    font-weight: 500;
     padding: 5px;
     text-decoration: none;
     color: #333;
@@ -345,12 +344,18 @@ html, body {
     font-size: 44px;
   }
   .Icon-container img{
-    height: 44px;
-    width: 44px;
+    height: 54px;
+    width: 54px;
+  }
+  .search-bar{
+    height: 50px;
+    width: 400px;
+    top: 60px;
+    font-size: 20px;
   }
   #bag-icon{
-    height: 34px;
-    width: 34px;
+    height: 44px;
+    width: 44px;
   }
   .mobile-nav-button .fas {
     width: 24px;

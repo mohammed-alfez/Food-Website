@@ -140,7 +140,7 @@
 @media (max-width: 767px) {
   .testimonial-container {
     padding: 10px; 
-    margin-top: -6rem;
+    margin-top: -4rem;
   }
   .testimonial-section {
     padding: 20px; 
@@ -148,6 +148,19 @@
   .testimonial-content {
     padding-left: 100px; 
     padding-bottom: 50px;
+
+  }
+  .testimonial-content h2{
+    font-size: 1.3rem;
+  }
+  .testimonial-content h1{
+    font-size: 2.2rem;
+  }
+  .testimonial-content p{
+    font-size: 1.2rem;
+  }
+  .rating{
+    line-height: 1.1;
   }
   .customer-feedback {
     margin: 10px; 
