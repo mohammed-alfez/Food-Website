@@ -249,29 +249,25 @@ html, body {
   }
   
   .mobile-nav-links {
-    display: block;
     position: absolute;
     top: 120px;
-    left: 34.2rem;
+    left: 56rem;
     width: 100%;
     color: #272727;
     padding: 10px;
-    z-index: 4;
     padding: 5px;
   }
   
   .mobile-nav-link {
     display: block;
-    padding: 10px;
-    font-size: 1.5rem;
+    position: relative;
+    font-size: 3rem;
     font-weight: 500;
     padding: 5px;
     text-decoration: none;
     color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
-  
- 
-  
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .navbar {

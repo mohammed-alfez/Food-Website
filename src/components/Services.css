@@ -110,7 +110,7 @@
   }
   .services-section {
     position: relative;
-    left: 9%;
+    left: 13%;
     grid-template-rows: repeat(2, 1fr);
     margin-bottom: 0; 
   }

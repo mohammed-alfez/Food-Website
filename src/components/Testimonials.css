@@ -139,30 +139,43 @@
 /* Small screens (mobiles) */
 @media (max-width: 767px) {
   .testimonial-container {
-    padding: 10px; 
-    margin-top: -4rem;
+    padding: 20px; 
+    margin-top: -6rem; 
   }
   .testimonial-section {
-    padding: 20px; 
+    padding: 30px; 
   }
   .testimonial-content {
-    padding-left: 100px; 
-    padding-bottom: 50px;
-
+    padding-left: 140px; 
+    padding-bottom: 30px; 
   }
   .testimonial-content h2{
-    font-size: 1.3rem;
+    font-size: 1.8rem; 
   }
   .testimonial-content h1{
-    font-size: 2.2rem;
+    font-size: 3rem; 
   }
   .testimonial-content p{
-    font-size: 1.2rem;
+    font-size: 1.5rem; 
+  }
+  .chef-image img {
+    width: 350px;
+    height: auto;
+    top: -20rem;
+  }
+  .bg-chef-image{
+    height: 340px;
   }
   .rating{
-    line-height: 1.1;
+    line-height: 1.3;
+  } 
+  .rating > span{
+    margin-left: 0;
+  }
+  .rating span{
+    font-size: 1.3rem;
   }
   .customer-feedback {
-    margin: 10px; 
+    margin: 20px; 
   }
 }

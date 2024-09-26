@@ -154,20 +154,43 @@
     align-items: center;
     margin-top: 2rem;
     gap: 1rem;
+    padding: 4rem;
   }
   .dish-card {
-    width: 300px;
-    height: 350px;
-    padding: 2rem; 
-    font-size: 1.2rem;
+    height: 500px;
+    width: 90%;
+    padding: 10rem 14rem;  
     margin: 0.5rem;
+    border-top-right-radius: 10%;
+  }
+  .favorite-button{
+    height: 110px;
+    width: 122px;
+  }
+  .favorite-button img{
+    height: 40px;
+    width: 40px;
   }
   .dish-name{
-    margin-top: 40px;
+    font-size: 2.4rem;
   }
-  .dish-image{
-    height: 160px;
-    width: 160px;
+  .special-description{
+    font-size: 1.6rem;
+  }
+  .dish-price{
+    font-size: 2.4rem;
+  }
+  .dish-rating{
+    font-size: 2.4rem;
+    margin-right: -5rem;
+  }
+  .dish-image {
+    height: 300px;
+    width: 300px;
+    margin-top: -2rem;
+  }
+  .dish-name, .dish-price, .special-description{
+    margin-left: -6rem;
   }
   .carousel-container {
     display: none;
