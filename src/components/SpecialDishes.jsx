@@ -34,6 +34,7 @@ const dishes = [
     rating: 3.5,
     isFavorite: false,
   },
+
   
   // Add more dishes here...
 ];
@@ -43,17 +44,17 @@ const SpecialDishes = () => {
   const [favoriteDishes, setFavoriteDishes] = useState(dishes);
   const dishCardWidth = 200;
   const totalCards = dishes.length;
-  const visibleCards = 3;
 
   const handlePrevClick = () => {
-    const newIndex = (currentIndex - visibleCards + totalCards) % totalCards;
+    const newIndex = (currentIndex - 1 + totalCards) % totalCards;
     setCurrentIndex(newIndex);
   };
-
+  
   const handleNextClick = () => {
-    const newIndex = (currentIndex + visibleCards) % totalCards;
+    const newIndex = (currentIndex + 1) % totalCards;
     setCurrentIndex(newIndex);
   };
+  
 
   const handleFavoriteClick = (dish) => {
     const updatedDishes = favoriteDishes.map((item) => {

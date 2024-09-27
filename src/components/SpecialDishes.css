@@ -49,7 +49,7 @@
   display: flex;
   gap: 2rem;
   margin-top: 40px;
-  overflow: hidden;
+  overflow: visible;
   justify-content: center; 
 }
 
@@ -62,7 +62,7 @@
   padding: 1rem;
   text-align: center;
   opacity: 0.8;
-  transition: opacity 0.5s ease-in-out;
+  transition:  0.5s ease-in-out;
 }
 
 .dish-card.active {
@@ -154,7 +154,7 @@
     align-items: center;
     margin-top: 2rem;
     gap: 1rem;
-    padding: 4rem;
+    padding: 2rem;
   }
   .dish-card {
     height: 500px;

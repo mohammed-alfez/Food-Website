@@ -123,8 +123,9 @@
     font-size: 2rem;
   }
   .footer-content {
-    justify-content: flex-start; 
-    gap: 10px; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
   }
   .footer .footer-text {
     display: none;

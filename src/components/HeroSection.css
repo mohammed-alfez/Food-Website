@@ -112,7 +112,7 @@
 }
 .image-container {  
   padding-top: 4rem;
-  margin-left: 20px; 
+  padding-left: 20px; 
   margin-top: 20rem;
   right: 0; 
   top: 50%; 
@@ -192,6 +192,54 @@
   margin-left: 5px;
   border-radius: 10px;
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  
+ 
+
+  
+  .container {
+    padding: 20px 40px;
+    font-size: 16px;
+  }
+
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-md-4 {
+    flex-basis: 30%;
+    margin: 10px;
+  }
+
+  
+  .footer {
+    padding: 30px 40px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+ 
+  .header {
+    padding: 20px 40px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-item {
+    margin-right: 20px;
+  }
+}
+  
 
 @media (max-width : 767px) {
 .hero-section {

@@ -10,6 +10,7 @@ import { faStar as faRegular } from "@fortawesome/free-regular-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 const HeroSection = () => {
+  const MAX_RATING = 5;
   const actionItems = [
     {
       image: spicyNoodles,
@@ -78,7 +79,7 @@ const HeroSection = () => {
                               />
                             )
                           )}
-                          {[...Array(5 - Math.floor(item.rating))].map(
+                          {[...Array(MAX_RATING - Math.floor(item.rating))].map(
                             (star, i) => (
                               <FontAwesomeIcon
                                 key={i}
