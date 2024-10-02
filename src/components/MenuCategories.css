@@ -118,7 +118,7 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .menu-categories {
     padding: 4rem 0; 
     margin-top: -15rem;

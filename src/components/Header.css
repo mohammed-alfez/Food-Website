@@ -249,7 +249,7 @@ html, body {
   .mobile-nav-links {
     position: absolute;
     top: 120px;
-    left: 50rem;
+    left: 46rem;
     width: 100%;
     color: #272727;
     padding: 10px;
@@ -291,7 +291,7 @@ html, body {
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
 
   .navbar {
     width: 100%;
@@ -304,6 +304,7 @@ html, body {
   .logo{
     margin-top: 120px;
     font-size: 3rem;
+    margin-right: -120px;
   }
   .cta {
     display: none;
@@ -313,12 +314,17 @@ html, body {
     height: 2rem;
     width: 2rem;
   }
+ .bag-item-count{
+    height: 20px;
+    font-size: 14px;
+  }
   .mobile-nav {
     display: block;
     
   }
   .mobile-nav-button {
     font-size: 44px;
+    padding-right: 60px;
   }
   .Icon-container img{
     height: 54px;

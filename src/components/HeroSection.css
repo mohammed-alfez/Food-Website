@@ -194,10 +194,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  
- 
-
-  
+   
   .container {
     padding: 20px 40px;
     font-size: 16px;
@@ -241,7 +238,7 @@
 }
   
 
-@media (max-width : 767px) {
+@media (max-width : 480px) {
 .hero-section {
   flex-direction: column;
   align-items: flex-start;
@@ -262,7 +259,7 @@
 .cta-container {
   flex-direction: row;
   align-items: flex-start;
-  margin-left: 25%;
+  margin-left: 17%;
   gap: 1rem;
 }
 .cta-button.primary{
@@ -296,8 +293,8 @@
 }
 .sideHero{
   top: 30%;
-  height: 250px;
-  width: 400px;
+  height: 200px;
+  width: 350px;
 }
 .action-image{
   height: 110px;

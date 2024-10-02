@@ -89,9 +89,9 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .service-container {
-    width: 90%;
+    width: 100%;
     padding:  0.5rem; 
     margin-top: -10rem;
     position: relative;
@@ -112,7 +112,7 @@
     position: relative;
     left: 9%;
     grid-template-rows: repeat(2, 1fr);
-    margin-bottom: 0; 
+    margin-top: 40px; 
   }
   .service-card{
     width: 90%;
